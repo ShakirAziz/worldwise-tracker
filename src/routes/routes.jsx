@@ -4,14 +4,12 @@ import Product from "../pages/Product";
 import Login from "../pages/Login";
 import PageNotFound from "../pages/PageNotFound";
 import Pricing from "../pages/Pricing";
-import PageNav from "../components/AppNav";
 import AppLayout from "../pages/AppLayout";
 
 function Routers() {
   return (
     <>
       <BrowserRouter>
-        <PageNav />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/AppLayout" element={<AppLayout />} />
